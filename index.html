@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		
+		<!-- Fonts-->
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<style>
+			body{
+				font-family: Montserrat, sans-serif;
+			}
+			bold{
+				font-weight:600;
+			}
+			
+			.inline-block{
+				display:inline-block;
+				padding: 5px 5px 5px 5px;
+			}
+			.on-top{
+				position:absolute;
+				top: 200px;
+				left: 50%;
+			}
+			.bg-blue{
+				background-color:#00264d;
+				
+			}
+			.bg-grey{
+				background-color:#cccccc;
+			}
+			.bg-white{
+				
+			}
+			.navbar li a, .navbar .navbar-brand{
+				color:#fff !important;
+			}
+			#about{
+				
+				
+				padding-top:40px;
+				padding-bottom:40px;
+				
+			}
+			
+			#me-overlap
+			{
+				width:100%;
+				position:absolute;
+				left:0px;
+				bottom:0px;
+				color:white;
+				
+				
+			}
+			#get-in-touch{
+				padding-top:100px;
+				padding-bottom:100px;
+				
+			}
+			#footer{
+				height:100px;
+			}
+			
+		</style>
+	</head>
+	<body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+		<nav class="navbar navbar-default navbar-fixed-top bg-blue">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-option">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="#portfolio"><bold>KIMLENG NGUOV</bold></a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="navbar-option">
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">About</a></li>
+						<li><a href="#get-in-touch">Get in Touch</a></li>
+						<li><a href="profile.html">Resume</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid text-center" style="padding:0 0 0 0;" >
+			<img style="width:100%;opacity:1" src="pictures/me-blue.jpg" id="me">
+			
+		</div>
+		<div class="text-center" id="me-overlap">
+			<div class="inline-block">
+				<p style="font-size:60px"><bold>KIMLENG NGUOV</bold></p>
+				<p style="font-size:25px">"Life is all about meeting good people, writing good code, eating good food, and drinking good coffee"</p>
+			</div>
+		</div>
+		<div class="container-fixed text-center" id="about">
+			
+			<h1><bold>HELLO!</bold></h1>
+			<h3>I am Kimleng Nguov, also known as Tee. </br></br>
+				I am fresh graduate in Computer Science from University of California, Irvine.</br></br>
+				I am currently looking for an opportunity to start my career path.</br></br>
+				I love cooking. I like trying existing recipes and creating different ones based on my taste</br></br>
+			</h3>
+						
+				
+		</div>
+		<div class="container-fixed text-center bg-grey" id="get-in-touch">
+			<h1><bold>Get in Touch</bold></h1>
+			<h3>If you need anything, you can reach me via my email.</h3>
+			<div style="font-size:20px"><span class="glyphicon glyphicon-envelope"></span><a href="mailto:kimlengng23@gmail.com"> kimlengng23@gmail.com</a></div>
+		</div>
+		
+	</body>
+
+</html>
