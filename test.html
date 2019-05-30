@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div id="test">
+			<p>heheh</p>
+		</div>
+	</body>
+
+
+	<script>
+		var obj = {
+			counter:0,
+			get reset(){
+				this.counter=0;
+			},
+			get increment(){
+				this.counter++;
+			},
+			get decrement(){
+				this.counter--;
+			},
+			set add(value){
+				this.counter += value;
+			},
+			set substract(value){
+				this.counter -= value;
+			}
+		};
+		obj.reset;
+		obj.add = 5;
+		obj.substract = 1;
+		obj.increment;
+		obj.decrement;
+		document.getElementById("test").innerHTML = obj.counter;
+	</script>
+
+</html>
